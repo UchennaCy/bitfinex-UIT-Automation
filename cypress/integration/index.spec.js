@@ -17,4 +17,8 @@ describe('User Interface test automation for Bitfinex website', () => {
     it('should click on the search result', () => {
         cy.get('.symbol-col').contains('LEO/USD').click()
     })
+
+    it('should assert that the page url is equal to https://trading.bitfinex.com/t/LEO:USD?demo=true', () => {
+        cy.url().should('eq', 'https://trading.bitfinex.com/t/LEO:USD?demo=true')
+    })
 })
