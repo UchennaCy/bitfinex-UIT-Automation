@@ -13,4 +13,8 @@ describe('User Interface test automation for Bitfinex website', () => {
     it('should search for Unus Sed Leo', () => {
         cy.get('.visible-desktop > .bp3-input-group > .bp3-input').type('Unus Sed Leo{enter}')
     })
+
+    it('should click on the search result', () => {
+        cy.get('.symbol-col').contains('LEO/USD').click()
+    })
 })
