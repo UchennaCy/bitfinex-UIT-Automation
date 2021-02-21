@@ -1,0 +1,28 @@
+{
+  "name": "bitfinex-uit-automation",
+  "version": "1.0.0",
+  "description": "A User Interface Test Automation on Bitfinex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WiseCyril/bitfinex-UIT-Automation.git"
+  },
+  "keywords": [
+    "Bitfinex",
+    "Cypress",
+    "Test",
+    "Automation"
+  ],
+  "author": "Nnamadim Cyril Uchenna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WiseCyril/bitfinex-UIT-Automation/issues"
+  },
+  "homepage": "https://github.com/WiseCyril/bitfinex-UIT-Automation#readme",
+  "dependencies": {
+    "cypress": "^6.5.0"
+  }
+}
